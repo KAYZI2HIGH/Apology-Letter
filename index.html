@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apology Notice</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(to bottom, #f9fafb, #f3f4f6);
+      color: #1f2937;
+    }
+
+    .container {
+      min-height: 100vh;
+      padding: 3rem 1rem;
+    }
+
+    .card {
+      max-width: 48rem;
+      margin: 0 auto;
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      padding: 2rem;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 4rem;
+      position: relative;
+    }
+
+    .header .icon {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 3rem;
+      height: 3rem;
+      color: #fecdd3;
+      animation: pulse 2s infinite;
+      z-index: 1;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+    }
+
+    .header h1 {
+      font-size: 2.25rem;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 0.75rem;
+      z-index: 100;
+      position: relative;
+    }
+
+    .header p {
+      font-size: 1.125rem;
+      color: #4b5563;
+      font-weight: 300;
+    }
+
+    .section {
+      margin-bottom: 3rem;
+      transition: all .25s linear;
+    }
+
+    .section:hover {
+      transform: translateX(0.5rem);
+    }
+
+    .section .title {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .section .title .icon {
+      width: 1.25rem;
+      height: 1.25rem;
+      color: #dbeafe;
+      margin-right: 0.5rem;
+    }
+
+    .section .title h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #1e293b;
+    }
+
+    .section .content {
+      padding-left: 1.75rem;
+    }
+
+    .section .content p {
+      color: #4b5563;
+      line-height: 1.625;
+    }
+
+    .footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid #f3f4f6;
+      text-align: center;
+    }
+
+    .footer p {
+      color: #4b5563;
+      font-weight: 500;
+      letter-spacing: 0.025em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <header class="header">
+        <div class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+        </div>
+        <h1>Apology Notice</h1>
+        <p>A Heartfelt Apology and Appreciation Message</p>
+      </header>
+      <section>
+        <div class="section">
+          <div class="title">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+            </div>
+            <h2>What I Did</h2>
+          </div>
+          <div class="content">
+            <p>
+              I complimented a mentor for their motivating message, but in
+              doing so, I unintentionally made others feel unappreciated. My
+              specific acknowledgment of one person's contribution
+              inadvertently diminished the valuable support provided by all
+              mentors.
+            </p>
+          </div>
+        </div>
+        <div class="section">
+          <div class="title">
+            <div class="icon">
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+            </div>
+            <h2>Why It Was Wrong</h2>
+          </div>
+          <div class="content">
+            <p>
+              My words, though well-intentioned, could have been interpreted
+              as showing preference or suggesting that other mentors' guidance
+              was less valuable. This was thoughtless on my part, as every
+              mentor contributes uniquely and significantly to our learning
+              environment.
+            </p>
+          </div>
+        </div>
+        <div class="section">
+          <div class="title">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+            </div>
+            <h2>Apology to Phoenix and Shalom</h2>
+          </div>
+          <div class="content">
+            <p>
+              I sincerely apologize to Phoenix, Shalom, and all mentors for my
+              oversight. Each of you brings invaluable expertise, guidance,
+              and support to our community. I deeply appreciate your
+              dedication and commitment to our growth. Moving forward, I
+              commit to being more mindful of how my words may impact others
+              and to better acknowledge the collective effort of all mentors.
+            </p>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <p>Thank you for your understanding</p>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
